@@ -1,0 +1,19 @@
+h4 {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(215, 29%, 23%);
+}
+
+.cart_product {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cart_product_title {
+    margin-bottom: 30px;
+}
+
+.cart_product_img {
+    width: 350px;
+    height: auto;
+}

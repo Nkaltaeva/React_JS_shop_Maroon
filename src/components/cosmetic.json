@@ -1,0 +1,122 @@
+[
+  {
+    "id": "0",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_1.png?raw=true",
+    "title": "High",
+    "types": "крем для лица",
+    "sizes": [50],
+    "price": 990,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "1",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_2.png?raw=true",
+    "title": "Rest",
+    "types": "минеральная пудра",
+    "sizes": [20],
+    "price": 690,
+    "category": 0,
+    "rating": 6
+  },
+  {
+    "id": "2",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_3.png?raw=true",
+    "title": "Rose",
+    "types": "крем для лица",
+    "sizes": [50],
+    "price": 890,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "3",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_4.png?raw=true",
+    "title": "Milk",
+    "types": "масло для тела",
+    "sizes": [150],
+    "price": 790,
+    "category": 2,
+    "rating": 2
+  },
+  {
+    "id": "4",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_5.png?raw=true",
+    "title": "Paradise",
+    "types": "крем для лица",
+    "sizes": [50],
+    "price": 590,
+    "category": 1,
+    "rating": 8
+  },
+  {
+    "id": "5",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_8.png?raw=true",
+    "title": "Clean",
+    "types": "маска для лица",
+    "sizes": [100],
+    "price": 490,
+    "category": 6,
+    "rating": 2
+  },
+  {
+    "id": "6",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_6.png?raw=true",
+    "title": "Sun",
+    "types": "бомбочка для ванны",
+    "sizes": [20],
+    "price": 90,
+    "category": 3,
+    "rating": 9
+  },
+  {
+    "id": "7",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_7.png?raw=true",
+    "title": "Violet",
+    "types": "крем для лица",
+    "sizes": [50],
+    "price": 890,
+    "category": 1,
+    "rating": 8
+  },
+  {
+    "id": "8",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_9.png?raw=true",
+    "title": "Coconut",
+    "types": "масло для тела",
+    "sizes": [330],
+    "price": 990,
+    "category": 4,
+    "rating": 10
+  },
+  {
+    "id": "9",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_10.png?raw=true",
+    "title": "Lavender",
+    "types": "мыло ручной работы",
+    "sizes": [50],
+    "price": 290,
+    "category": 5,
+    "rating": 7
+  },
+  {
+    "id": "10",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_11.png?raw=true",
+    "title": "Lotos",
+    "types": "маска для лица",
+    "sizes": [50],
+    "price": 890,
+    "category": 6,
+    "rating": 9
+  },
+  {
+    "id": "11",
+    "imageUrl": "https://github.com/Nkaltaeva/html_maroon/blob/main/img/catalog/img_12.png?raw=true",
+    "title": "Earth",
+    "types": "бомбочка для ванны",
+    "sizes": [20],
+    "price": 90,
+    "category": 3,
+    "rating": 9
+  }
+]

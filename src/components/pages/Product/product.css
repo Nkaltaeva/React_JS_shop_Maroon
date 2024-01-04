@@ -1,0 +1,135 @@
+i {
+    font-size: 14px;
+    font-style: normal;
+    margin: 12px;
+}
+
+.radio_click_input {
+    width: 20px;
+    margin-right: .5em;
+}
+.catalog__product_favourites {
+    width: 1250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.catalog__product {
+    width: 1250px;
+    margin: 0 auto;
+}
+.catalog__product_card {
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-between;
+
+}
+
+.catalog__product_card_title {
+    width: 500px;
+
+}
+
+.rectangle_line {
+    border: none;
+    border-top: 1px solid #d4d4d4;
+    margin: 0px auto;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.catalog__product_card_composition {
+    margin-bottom: 30px;
+}
+.catalog__product_card_description {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.catalog__product_card_composition_title {
+    justify-content: space-between;
+    align-items: center;
+}
+legend {
+    margin-bottom: 20px;
+}
+
+
+.radio_click {
+    margin: 0 40px 0 10px;
+    font-family: Arial, sans-serif;
+    color: rgb(148, 147, 147);
+}
+
+.catalog__product__imgUrl {
+    width: 500px;
+    height: 650px;
+    margin-bottom: 30px;
+}
+
+.radio_click__title {
+    margin-left: -15px;
+}
+
+@media (max-width: 950px) {
+    .catalog__product__imgUrl {
+        width: 250px;
+        height: 320px;
+        margin-bottom: 30px;
+    }
+
+    .catalog__product {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .catalog__product_card_title {
+        width: 400px;
+    }
+    .catalog__product_favourites {
+        width: 700px;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .catalog__product__imgUrl {
+        width: 200px;
+        height: 250px;
+        margin: -40px 0 40px 70px;
+    }
+
+    .catalog__product {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .catalog__product_card {
+        width: 350px;
+    }
+    .catalog__product_card_title {
+        width: 300px;
+        display: block;
+        margin-left: 20px;
+    }
+
+    .catalog__product_favourites {
+        width: 300px;
+    }
+    
+    .catalog__product_card {
+        display: block;
+    }
+
+
+    .content-blog__tetle {
+        font-size: 7px;
+    }
+
+    .rectangle_line {
+        width: 300px;
+    }
+
+}

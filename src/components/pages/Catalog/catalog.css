@@ -1,0 +1,134 @@
+.catalog__product_titles {
+    width: 1210px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.catalog__product_list {
+    width: 1250px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.catalog_product_list_cell {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.catalog__product_cell_img {
+    width: 270px;
+    height: 350px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+.sort_blog_product {
+    list-style: none;
+    width: 260px;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+    background: rgba(248, 248, 246, 1);
+    box-shadow: 0px 1px 5px 0px  rgb(197, 197, 196);
+    margin: -41px 0px 0px 0px;
+
+}
+ul {
+    overflow: hidden;
+}
+
+.active {
+    font-weight: bold;
+    color:  #8ea979;
+  }
+
+
+ li {
+    cursor: pointer;
+}
+
+
+.catalog__product_cell_title {
+    display: flex;
+    margin: -60px 18px 0 18px;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.catalog__product_cell_title_description {
+    display: flex;
+    margin: 5px 18px 0 18px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.radio_click {
+    font-family: Arial, sans-serif;
+    color: rgb(148, 147, 147);
+}
+
+.radio_click__title {
+    margin: 20px 0px 0 10px;
+    width: 270px;
+}
+
+.content-blog_button {
+    background: none;
+    width: 270px;
+    height: 41px;
+    top: 1005px;
+    border-radius: 2px;
+    border: 1px solid rgb(198, 199, 200);
+    margin: 0px 0 0 0;
+}
+
+.content-blog_button:hover{
+    background: rgb(91, 134, 91);
+    color: rgb(255, 255, 255);
+    border: none;
+    
+}
+
+@media (max-width: 950px) {
+    .catalog__product_titles {
+        width: 700px;
+    }
+
+    .catalog__product_list {
+        width: 670px;
+    }
+}
+
+@media (max-width: 450px) {
+    .catalog__product_titles {
+        width: 350px;
+        display: block;
+        text-align: center;
+    }
+
+    .catalog__product_list {
+        width: 345px;
+    }
+
+    .catalog__product_cell_img {
+        margin-bottom: 150px;
+    }
+
+    .sort_blog_product {
+        margin-left: 40px;
+    }
+
+}

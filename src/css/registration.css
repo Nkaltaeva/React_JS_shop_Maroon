@@ -1,0 +1,144 @@
+.content-authorization {
+    width: 900px;
+    height: 380px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #555555; 
+}
+
+.content-authorization-banner {
+    border: 1px solid  #D1D1D1;
+    width: 400px;
+    height: 510px;
+    flex-shrink: 0;
+    text-align: center; 
+}
+
+.content-blog-sheet_banner_title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 10px 0 10px 0;
+}
+
+.content-authorization-list {
+    width: 500px;
+    height: 510px;
+    flex-shrink: 0;
+    background: #D1D1D1;
+    border: 1px solid  #D1D1D1;
+}
+
+.content-authorization-list_title {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.content-authorization_title {
+    text-align: center;
+}
+.content-authorization-list_email,
+.content-authorization-list_password {
+    margin: 50px 0 50px 60px;
+
+}
+
+.content-authorization-list_button {
+    text-align: center;
+}
+
+input {
+    background: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #C3BEBE;
+    width: 335px;
+    font-size: 14px;
+}
+
+input {outline:none;}
+
+.content-authorization-list_registration,
+.content-authorization-list_input {
+    width: 300px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: none;
+}
+
+.content-authorization-list_input:hover,
+.content-authorization-list_registration:hover {
+    width: 300px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: #efefef; 
+}
+
+.content-authorization-checkbox {
+    width: 400px;
+    font-size: 12px;
+    color: #838383;
+    margin: 0 0 0 -150px;
+}
+
+.content-authorization-checkbox_click {
+    margin: -25px 0 35px -100px;
+}
+
+
+@media (max-width: 950px) {
+    .content-authorization-banner {
+        display: none;
+    }
+    .content-authorization-list {
+        width: 700px;
+    }
+    .content-authorization {
+        width: 700px;
+    }
+    input {
+        width: 630px;
+    }
+    .content-authorization-checkbox {
+        margin: 0 0 0 -300px;
+    }
+    
+    .content-authorization-checkbox_click {
+        margin: -30px 0 35px -250px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .content-authorization-banner {
+        display: none;
+    }
+    .content-authorization-list {
+        width: 350px;
+    }
+    .content-authorization {
+        width: 350px;
+    }
+    input {
+        width: 230px;
+    }
+    .content-authorization-checkbox {
+        margin: 0 0 0 -110px;
+    }
+    
+    .content-authorization-checkbox_click {
+        margin: -30px 0 35px -70px;
+    }
+    
+}
+
+
